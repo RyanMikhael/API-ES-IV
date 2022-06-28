@@ -1,14 +1,26 @@
 {
   "name": "productapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p> Plataforma Online cujos usuários tẽm acesso às informações sobre diversos produtos.</p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.7.2"
-  }
+    "@types/jest": "^27.5.2",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanMikhael/API-ES-IV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyanMikhael/API-ES-IV/issues"
+  },
+  "homepage": "https://github.com/RyanMikhael/API-ES-IV#readme",
+  "keywords": []
 }

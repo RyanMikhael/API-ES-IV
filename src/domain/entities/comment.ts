@@ -1,4 +1,4 @@
-class Comment{
+export class Comment{
     id?: string;
     productId: string;
     text: string;
@@ -6,5 +6,3 @@ class Comment{
     userId: string;
     userName: string;
 }
-
-export {Comment}

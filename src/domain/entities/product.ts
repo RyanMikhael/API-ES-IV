@@ -1,4 +1,4 @@
-export class Product{
+class Product{
     id?: string;
     name: string;
     description: string;
@@ -6,3 +6,5 @@ export class Product{
     company: string;
     link: string;
 }
+
+export {Product}
