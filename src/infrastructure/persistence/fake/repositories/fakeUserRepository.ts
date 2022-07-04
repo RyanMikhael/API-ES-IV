@@ -20,25 +20,25 @@ export class fakeUserRepository implements UserRepository{
 
     public async all(): Promise<User[]>{
         
-        throw new Error('...')
+        return this.UserRef
 
     }
 
-    public async create(obj: User): Promise<String>{
+    public async create(User): Promise<String>{
 
-        throw new Error('...')
+        return User
         
     }
 
-    public async change(obj: User, id: string): Promise<Object>{
+    public async change(User, string): Promise<Object>{
 
-        throw new Error('...')
+        return User
         
     }
 
-    public async get(id: string): Promise<User>{
+    public async get(id): Promise<User>{
         
-        throw new Error('...')
+        return this.UserRef[id]
         
     }
 }
