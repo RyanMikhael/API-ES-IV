@@ -7,7 +7,9 @@ interface createUserRequestModel{
 }
 
 export class CreateUserCommand{
+
     private userRepository: UserRepository;
+
 
     constructor(userRepository: UserRepository){
         this.userRepository = userRepository;
