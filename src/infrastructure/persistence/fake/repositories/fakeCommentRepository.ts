@@ -16,19 +16,19 @@ export class fakeCommentRepository implements CommentRepository{
         })
     }
 
-    public async all(productId: string): Promise<Comment[]>{
-        throw new Error('...')
+    public async all(string): Promise<Comment[]>{
+        return this.commentRef
     }
 
-    public async create(obj:Comment): Promise<String>{
-        throw new Error('...')
+    public async create(Comment): Promise<String>{
+        return Comment
     }
 
-    public async change(obj: Comment, id: string): Promise<object>{
-        throw new Error('...')
+    public async change(Comment,string): Promise<object>{
+        return Comment
     }
 
-    public async get(id: string): Promise<Comment> {
-        throw new Error('...')
+    public async get(id): Promise<Comment> {
+        return this.commentRef[id]
     }
 }
