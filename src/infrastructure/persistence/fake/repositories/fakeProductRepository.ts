@@ -17,21 +17,21 @@ export class FakeProductRepository implements ProductRepository{
     }
 
     public async all(): Promise<Product[]>{
-        throw new Error('...')
+        return this.productsRef
     }
 
-    public async create(obj: Product): Promise<String> {
-        throw new Error('...')
+    public async create(Product): Promise<String> {
+        return Product
 
     }
 
-    public async change(obj: Product, id: String): Promise<object> {
-        throw new Error('...')
+    public async change(Product,String): Promise<object> {
+        return Product
         
     }
 
-    public async get(id: String): Promise<Product> {
-        throw new Error('...')
+    public async get(id): Promise<Product> {
+        return this.productsRef[id]
     }
 
 
